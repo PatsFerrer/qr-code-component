@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR code</title>
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+        :root {
+            --cor01: hsl(0, 0%, 100%);
+            --cor02: hsl(212, 45%, 89%);
+            --cor03: hsl(220, 15%, 55%);
+            --cor04: hsl(218, 44%, 22%);
+
+            --fonte-principal: 'Outfit', sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            max-width: 1440px;
+            min-width: 375px;
+            font-family: var(--fonte-principal);
+            font-size: 15px;
+            background-color: var(--cor02);
+            
+        }
+
+        main {
+            border-radius: 10px;
+            margin: 100px auto;
+            width: 320px;
+            background-color: var(--cor01);
+            /* height: 500px; */
+
+        }
+
+        img {
+            border-radius: 20px;
+            display: block;
+            padding: 10px;
+            width: 300px;
+        
+        }
+
+        .box {
+            padding: 14px;
+            gap: 20px;
+            display: grid;
+        }
+
+        h1 {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <img src="images/image-qr-code.png" alt="imagem do QR code">
+
+        <div class="box">
+            <h1>Improve your front-end skills by building projects</h1>
+            <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+        </div>
+    </main>
+</body>
+</html>
